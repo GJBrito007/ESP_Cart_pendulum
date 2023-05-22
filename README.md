@@ -19,7 +19,7 @@ u1 = 0.1  # friction coefficient pendulum
 u2 = 0.1   # friction coefficient cart
 
 
-def der_state(t, state):                                          # Here, we are writing first order DE.
+        def der_state(t, state):                                          # Here, we are writing first order DE.
         """compute the derivative of the given state"""
         
         der = np.zeros_like(state)
